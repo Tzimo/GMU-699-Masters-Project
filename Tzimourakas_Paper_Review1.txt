@@ -1,35 +1,0 @@
-Paper Review Template
-
-Paper Title: Atlas1.1: An Update to the Theory of Effective Systems EngineersAuthor: Dr. Nicole A.C. Hutchison Reviewer: Michael TzimourakasDate: 01/29/2021
-Provide a Short Summary of the Paper:
-
-- In 2016, the Systems Engineering Research Center (SERC) published a study to define and predict ‘what makes system engineers effective’. This study utilized 335 system engineers, spanning across early to late professionals, across 26 organizations.
-- In 2018, upon feedback from the original study and collecting more data, the same organization conducted a ‘Version 1.1.’ update to the study to further determine what makes system engineers effective.
-- Their findings determined an effective systems engineer is ‘someone who consistently delivers value by performing systems engineering activities’.
-- The primary values a system engineer provide are,
-o Keep and maintain the system vision
-o Translate technical jargon into business or operational terms and vice versa
-o Enable diverse teams to successfully develop systems
-o Manage emergence in both the project and the system
-o Enable good technical decisions at the system level.
-o Support the business case for the system
-- Many of these values and skills may be learned and developed. Of course, people may be predisposed to certain traits, but as the careers progresses, the effective system engineers became more effective with these skills
-
-What was Good about the Paper (be specific):
-
-- Providing a background of the study that was initially conducted and what 1.1 means for the study. I have never read the previous release of the study and this paper did a good job of indicating what was previously done and the changes that are present in this study
-- Properly and clearly defined the data set for readers to understand. Before ever digging into the analysis of what makes systems engineers effective the data set was defined. These provides the basis for understanding
-- 
-
-Where could the Paper be Improved (be specific):
-
-- Not sot much the paper but the data collection. Only 23 organizations were analyzed, each of which fall into only 3 buckets (government, industry, FFRDC). This is very little in terms of the amount of organizations that perform systems engineering. 23 organizations is too small of a sample size. These organizations are going to select individuals that are effective, and have a culture that fosters this. If a large sample size all work at the same company, it may  not be so much the individual, more that the organization has selected effective people and is the source of the effectiveness
-- Too many different codes and rules defined for their analysis. Much of the paper is simply defining language and diagram qualities (what colors mean, what ‘effective’ means, what ‘proficiency’ means, what ‘value’ means, etc)
-- I know that systems engineers were analyzed, but all of these characteristics are not exclusive to systems engineer. These are all characteristics people should exhibit whether you are a system engineer or not
-- Way to much detail for what they are trying to convey. Breaking down each characteristic into many definitions and categories just clutters what you are trying to recommend. 
-
-Would you recommend this paper to a colleague? Why or why not?
-
-- No. This paper was way too long and too detailed to be ‘effective’. Which is pretty ironic considering what it is trying to convey
-- I would give someone this type of summary and if they wanted more detail I would point them to the paper.
-- I strongly disagree that someone could read this paper, retain valuable information, and effectively apply it to their career
