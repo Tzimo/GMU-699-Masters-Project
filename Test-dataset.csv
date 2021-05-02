@@ -1,0 +1,1219 @@
+Sentence,Requirement
+Response: A menu listing available toolbars show up.  Selecting a toolbar toggles if it shows or not.  Check marks should show next to toolbars that are currently selected for view.,1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on Layout menu within Preferences menu,1
+"Response: A menu with different layout choices will show up.  Options to select panes that show in users site, including file tree diagram for Virtual-Space, messages/post threads, class lecture pane, Instant-ED pane, file/message preview pane, and Virtual-Exam pane.  Suggested organization layouts are also selectable from this menu.  Panes will be added or removed as (de)selected from menu and organized according to selected layout.",1
+Functional Requirements,0
+"Clean GUI Req 1:  Users are limited to Windows XP,  or Mac- OS.",1
+"Clean GUI Req 2:  Users are limited to Internet Explorer, Mozilla Firefox and Safari internet browsers.",1
+Clean GUI Req 3:  Users must have pop-up windows enabled on their systems.,1
+Enhanced file sharing/transfer and document collaboration,0
+Description and Priority,0
+"Enhanced file sharing/ transfer and document collaboration will be a feature that will allow students to have a Virtual hard drive space in the Virtual-Edu classroom that they will be able to use for sharing files. Users will be able to upload their documents, and eventually transfer them between other users/computers. The files saved in the virtual hard drive space will be accessible to the user even if user is accessing Virtual-Edu from a different computer. Benefit from this feature will be that users that are constantly mobile and on the go can access the documents and projects from any place; they can update their documents and upload a revised version again. The latest version of the document will be always available with just a click of a button. Priority for this feature will be medium for the Second Release date.",1
+Stimulus/Response Sequences,0
+User action: Log in to Virtual-Edu,1
+Response: The user is logged in and all available features in the system are shown in the menu,1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on the ,1
+Response: New pop up window shows up with list of documents already uploaded in the Virtual Hard Drive. The bottom of the window will show how much space is available for use.,1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on upload button,1
+"Response: New window pops up, user can search for file that he wants to upload from his computer to the Virtual Hard Drive",1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on the selected file,1
+"Response: System will begin file transfer with first checking if file with the same name already   exists in the system, if not transfer will continue, if yes, user receives message:  “File already exist, do you want to replace”",1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on the “yes” button,1
+Response: File continues to upload,1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on “no” button,1
+Response: The file is not uploaded and the user has the option to rename the file and uploaded it under the new name. This way the user will have the option of keeping both old and new file.,1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on the “send file” button,1
+Response: The other user will receive a message saying that someone is trying to send them a file. And a window pops up saying: “Do you accept?”,1
+--------------------------------------------------------------------------------------------------,0
+User action: User answer yes,1
+Response: The file begins transmitting to the other party,1
+--------------------------------------------------------------------------------------------------,0
+User action: User answer no,1
+Response: The file transmission will fail,0
+Functional Requirements,0
+"REQ-1 - Users are limited to Windows XP,  or Mac- OS",1
+"REQ-2 - Users are limited to Internet Explorer, Mozilla Firefox and Safari internet browsers",1
+REQ-3 - Users must have pop-up windows enabled on their systems,1
+REQ-4 - Users must enable java scripts on their systems to be able to install Instant-Edu messaging software,1
+REQ-5 - Users must have antivirus software installed so they can scan the incoming files from other users of the system,1
+Class lecture video/audio available as podcasts,0
+Description and Priority,0
+"This feature will enable professors to host their lectures as video and/or audio podcasts. Students will be able to download or view as live streaming videos/audios. This will be great feature that will give students the ability of rewind and play again in cases where the student didn’t really understand the lectures and feels that they need to listen/watch it again. This feature is not available in a real classroom as once the lecture is done, the professor leaves the classroom and students have to rely on the note that they were able to make during the lecture. Conclusion, this feature will not only meets the expectations of a real classroom but exceed them. Priority for this feature will be high for a second release cycle.",1
+Stimulus/Response Sequences,0
+User action: Log in to Virtual-Edu,1
+Response: The user is logged in and all available features in the system are shown in the menu,1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on the Podcast button,1
+Response: New window shows up with list of available lectures. Audio files will be in mp3 format and video lectures will be flash video format,1
+--------------------------------------------------------------------------------------------------,0
+User action: Double click on the audio or video file,1
+Response: Real player pops up and starts playing the lecture in live streaming,1
+--------------------------------------------------------------------------------------------------,0
+User action: Right click on the audio or video file,1
+Response: Option for save as will pop up that will give the user ability of downloading the lecture and being able to view/listen to it even when pc doesn’t have an internet connection,1
+Functional Requirements,0
+"REQ-1 - Users are limited to Windows XP,  or Mac- OS",1
+"REQ-2 - Users are limited to Internet Explorer, Mozilla Firefox and Safari internet browsers",1
+REQ-3 - Users must have pop-up windows enabled on their systems,1
+REQ-4 - Users must enable java scripts on their systems to be able to install Instant-Edu messaging software,1
+REQ-5 - Users must have Real Player installed on their systems,1
+Application sharing for whiteboards,0
+Description and Priority,0
+"This feature will enable the users to share programs enter meetings, share and edit documents at the same time. The professor will be able to host a network projector and hold a lecture almost the same as in a real classroom, projecting power point slide and all students currently logged in will be able to follow what’s going on in the class. Professor will be able to distribute documents to students (example syllabus) with the ability to lock the editing tools, so unauthorized change to the document will be impossible. If professor makes a change or ads to the syllabus or any other document the change will be instantly distributed to all students that have those documents in their space. The professor will have the ability to write on the whiteboard and students will be able to follow the classes and professors writing with no problem. Priority for this feature will be high for the second release cycle. Using network projectors will give a more realistic feel to our Virtual Classroom and students will benefit from this feature. Any user will be able to share a program on their computer with the rest of the users currently logged in. Students will be able to use this same feature when working on projects as teams, giving them the ability to all work on one document at the same time.",1
+Stimulus/Response Sequences,0
+User action: Log in to Virtual-Edu,1
+Response: The user is logged in and all available features in the system are shown in the menu,1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on the Whiteboard-Edu button,1
+Response: New pop up window shows up. Users will be able to join a conference or host a new one. The user initiating the conference will setup username and password and distribute the password to all users that would like to join his/her conference. Once user has joined the conference he/she will be able to see and interact will all the participants. ,1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on share a program button,1
+"Response: New window pops up, that will show all the programs available for sharing. ",1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on a certain program from available choice,1
+"Response: This program will automatically be distributed to all the participants, and all users will see the same screen.",1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on the file button in the window,1
+Response: A new window pops up where the user will be able to browse and look for a file in his system that he wants to send to all participants. Every participant will be able to make changes to the document and change will be implemented on each participants screen.,1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on share button,1
+Response: The entire desktop will be shared and everyone will be able to see the whole shared desktop.,1
+--------------------------------------------------------------------------------------------------,0
+User action: Click on the sign out button,1
+Response: The user will leave the meeting conference.,0
+Functional Requirements,0
+"REQ-1 - Users are limited to Windows XP,  or Mac- OS",1
+"REQ-2 - Users are limited to Internet Explorer, Mozilla Firefox and Safari internet browsers",1
+REQ-3 - Users must have pop-up windows enabled on their systems,1
+REQ-4 - Users must enable java scripts on their systems to be able to install Whiteboard-Edu software,1
+REQ-5 - Users must have antivirus software installed so they can scan the incoming files from other users of the system,1
+REQ-6 - Users must accept the privacy statement prior to using the application sharing,1
+"
+External Interface Requirements",0
+User Interfaces,0
+The user interface of the Virtual-ED system is designed with increased emphasis on the user Human-Machine interface. The interface is compartmentalized by competency to ensure that the user can easily navigate within the portal. Each compartment has a distinctive focus with a minimalist approach. The user has the capability to alter the interface as suited.,0
+Welcome Screen 1,0
+The initial entry (Welcome Screen 1) has three separate quadrants; each quadrant has a specific function. ,1
+Help Feature: Feature is linked with the help desk staff of the particular institution; anyone who has difficulty in logging on can choose this feature to contact the system administrator.,1
+Contact Us Feature: Will enable the user to look up a list of pertinent e-mail addresses/phone numbers within the institution.,1
+News Feature:  The administrator has the capability to post current news on this section as needed.,1
+Class Selection Screen 2,0
+"Enables the user to select the pertinent class, each class is highlighted for ease of use.",1
+ Application Layout 3,0
+"Enables the user to choose a specific application to be used. To launch an application click on the application icon, the application will open up on a separate screen",1
+ ,0
+ ,0
+Web Conferencing 4  (Sample image from oovoo.com),0
+Web conferencing feature enables the user to interact with multiple users within a given class. Each user can chat with one another while the session is open.,1
+Video Conferencing with multiple users 4.1  (Sample image from oovoo.com),1
+Instant messaging feature will allow users to interact with faculty and follow classmates over a text based one-to-one or one-to-many connection.,0
+ Web Chatting Screen 5,0
+(Sample image from oovoo.com),0
+File Transfer Screen 6,1
+(Sample image from oovoo.com),0
+This screen is an extension of the web conferencing feature; this screen enables the users to view all available chat sessions available at any given time.,1
+"File transfer feature enables the user to have the ability to manage a private temporary hosting space. Tools such as file uploading, directory creator, move, delete and rename will be accessible",1
+"
+Hardware Interfaces",1
+Display Monitor: It is recommended that a high resolution LCD or CRT monitor be used for best results. ,1
+"Input devices:   All hardware interfaces will be provided by the operating system, the system will require a keyboard and a mouse. In addition a properly configured sound card and a voice input device will be needed to utilize the conferencing feature.  ",1
+Visual Input:  The conferencing feature requires a high resolution video input device.  The device needs to be configured in accordance to manufacturer recommended settings and should be in operation before enabling the conferencing feature.,1
+Software Interfaces,0
+"The Virtual-ED software has a seamless integration with the local operating/hardware system. Once the user logs on to the Virtual-ED system (screen.1), the interface will seamlessly manage the local input/output/operating system, devices as needed",0
+"When using “Test administering” feature (applicable to Administrators only), XL and PDF must be installed in the native machine to view the downloadable reports. By default the reports will be saved to the “C: Program files/Virtual-ED/Bin/My reports folder”, (Requires XL-2002 or higher and Adobe Acrobat Reader 8 or higher)",1
+Communications Interfaces,0
+"Web Browser: The system requires the use of IE or Fire fox, Safari as the native web browser. It is recommended that current system performs optimally with the suggested browsers.",1
+The users must have pop-up windows enabled on their systems and must enable java scripts on their systems to be able to install Instant-Edu messaging software.,1
+"Communication Standards:  SSH client, FTP client, VPN client are used for connection between two computing endpoints.",1
+Data Transfer Rates:  Recommended 1.5 MBPS Download speed (for any download activities) and upload speed of minimum 128 Kbps.,1
+"Security: Users must have antivirus software installed so they can scan the incoming files from other users of the system, any commercially available Antivirus is can be used scanning files. ",1
+Other Nonfunctional Requirements,0
+Performance Requirements,10
+The web conferencing feature of the system requires the workstation utilized have at least the following minimum requirements: ,1
+A minimum of 500 MHz,1
+256 MB of available memory,1
+"Mac-compatible Webcam and headset (preferred) or separate webcam, microphone, and speakers",1
+"Broadband internet access (cable, DSL, etc.)",1
+"The system requires the use of Internet Explorer, Safari, or Firefox as the native web browser. It is recommended the current system performs optimally with the suggested two browsers. The use of other than the recommended browsers may cause performance issues that have not been addressed by the software vendor.",1
+The reporting functionality utilizes the Microsoft Excel (.XLS) and Adobe Portable Document Format (.PDF) for report outputs. The following recommended software must be installed in the local machine to fully utilize the reporting functionality.,1
+Microsoft Excel Viewer or Microsoft Excel,1
+A PDF Reader such as Adobe Reader,1
+System must be accessible on and off campus via broadband internet connection and using required ID/Password combination.,1
+System may require users to download program updates to become compatible and compliant with system.,1
+Safety Requirements,0
+All users are responsible for securing a backup of any uploaded data/content to the system in the event of an outage.,1
+The user is responsible for content uploaded. NJIT policy prohibits the use NJIT facilities/assets for personal use.,1
+"Users may not use the system to upload or post data which is discriminatory in regards to race, color, creed, religion, sex, age, handicap, marital status, or national origin.  Users may not upload or post data which is inflammatory or derogatory.",1
+"In the event, inflammatory/derogatory content has been identified, the content will be immediately removed and the appropriate authorities with be notified resulting in possible disciplinary action.",1
+Security Requirements,0
+"User must comply with all local, state, and federal laws when using available resources.  Any infringements or violations including but not limited to:  unauthorized use, harassment, exploitation of any gaps in the portal, inflammatory/derogatory content, or defacing the system will result in the appropriate authorities being notified.",1
+The user is responsible for maintaining the user account. Action must be taken by the user to prevent the user account from being compromised. ,1
+The user ID and the password should not be shared with anyone (students/staff/or anyone else). ,1
+User passwords should be between 8 and 12 characters including letters and numbers but excluding spaces.,1
+The user should periodically change the password; currently the user policy requires a mandatory password change every three months.,1
+"The information within the system is regarded private, however in the event of an investigation by a legal authority, including by not limited to a subpoena or audit, the information will be released to the proper authorities for the purpose intended.",1
+"All archived chats, e-mail, file share, and IM Messages are governed by the NJIT E-mail use policy.  The user is encouraged to view the content at the NJIT homepage for detailed use of the policy and restrictions and limitations of the policy.",1
+"In the event your account has been compromised, notify the NJIT help desk immediately. Refrain from using the infected account to communicate with anyone else. ",1
+The systems should adhere to the privacy policy set forth by NJIT and its administration and also state and federal guidelines.,1
+Software Quality Attributes,0
+"The system has an estimated 99% up time, though in an event of an outage data loss can occur. ",1
+The Web-Conferencing features’ performance depends on the availability of the bandwidth. The minimum of a broadband connection is recommended to fully utilize Web-Conferencing feature.,1
+The content is the responsibility of the users of the system; NJIT is neither responsible nor liable for the accuracy or the correctness of the content.,1
+"The portal will be periodically unavailable due to necessary maintenance upgrades. In the event of scheduled maintenance, the students/staff will be notified at least 24 hours in-advance. ",1
+"
+Other Requirements",0
+The system must be completed within the timeframe allotted for development.,1
+"Appropriate funding must be acquired to make required upgrades to existing systems, buy additional hardware and software, and acquire skilled personnel to develop project. ",1
+"
+Appendix A: Glossary",0
+ ,0
+Appendix B: Analysis Models,0
+for the,0
+Management Processes,0
+of an,0
+Integrated Library System,0
+Prepared by the PINES Reports Working Group:,0
+"LaToya Davidson,  Library System",0
+"Jennifer Durham, Statesboro Regional Library System",0
+"Dana Peeler, Ohoopee Regional Library",0
+"Susan Sexton-Cooley, Sara Hightower Regional Library",0
+"George Tuttle, Piedmont Regional Library",0
+"Katherine Gregory & Chris Sharp, PINES Staff Facilitators",0
+7-Aug-09,0
+"[Based on Version 3.0 final of “Software Requirements Specification for the Management Processes of an Integrated Library System” prepared by Lori Ayre and Lucien Kress, Galecia Group, January 27, 2009]",0
+"
+Table of Contents",0
+"1. Introduction........................................................................................................................................	3",0
+"1.1 Purpose and Perspective ............................................................................................................................	3",0
+"1.1a Formation and  of PINES Reports Working Group……………………………………………………………………	4",0
+"1.2 Product Scope and Features ......................................................................................................................	4",0
+"1.3 Intended Audience .....................................................................................................................................	4",0
+"1.4 Document Conventions...............................................................................................................................	5",0
+"1.5 User Classes and Characteristics.................................................................................................................	5",0
+"1.6 Operating Environment ..............................................................................................................................	5",0
+"1.7 Design and Implementation Constraints ....................................................................................................	6",0
+"1.8 User Documentation...................................................................................................................................	6",0
+"1.9 Assumptions and Dependencies..................................................................................................................	6",0
+"2. System Requirements..........................................................................................................................	7",0
+"2.1 Management Tools: General ......................................................................................................................	7",0
+2.2 Management Tools: Demographics.............................................................................................................8,0
+2.3 Management Tools: Inventory Control .......................................................................................................9,0
+"2.4 Management Tools: Patron Records .........................................................................................................	10",0
+"2.5 Management Tools: Transaction Records..................................................................................................	11",0
+"2.6 Management Tools: Financial Records.......................................................................................................	11",0
+"
+1. Introduction",0
+1.1 Purpose and Perspective,0
+"A program of the Georgia Public Library Service, Georgia Library PINES (Public Information Network for Electronic Services) is the public library automation and lending network for more than 275 libraries and affiliated service outlets in almost 140 counties.  PINES creates a statewide ""borderless library"" that provides equal access to information for all Georgians. Georgians with a PINES library card have access to materials beyond what is available on their local shelves and enjoy the benefits of a shared collection of 9.6 million books and other materials that can be delivered to their home library free of charge.  PINES has been running its shared bibliographic and patron databases on the Evergreen ILS, which was originally developed by the Georgia Public Library Service for use in PINES.",0
+"This Software Requirements Specification (SRS) describes the functional and nonfunctional requirements for Management Processes of an Integrated Library System (ILS). The requirements, while originally developed specifically for King County Library System, have been adapted for the Public Information Network for Electronic Services (PINES) as they are believed to be suitable for many large, urban, multiple-branch, centralized library systems. ",0
+"The requirements in this SRS presuppose the general data structures and functionality of a full-fledged ILS. The Management Processes will replace and enhance the current capabilities of Evergreen, as well as add new functionality. ",0
+1.1a Formation and  of PINES Reports Working Group,0
+"The PINES Reports Working Group was formed in response to a need to make recommendations for improvements of the Evergreen ILS reports interface.    () Library System, in collaboration with the Galecia Group, had already developed a software requirements specification for a reports interface and PINES staff took the opportunity to build a PINES-specific requirements document on that foundation.  Katherine Gregory, PINES Services Specialist, requested group members from the existing PINES Reports Subcommittee, and included PINES library directors in a call for volunteers.  The resulting PINES Reports Working Group consists of one library director, three assistant library directors, and a systems librarian, all of whom have significant experience developing reports for PINES libraries.  The mission statement of the PINES Reports Working Group is as follows:",0
+"
+Reports Working Group :",0
+Document optimal Reports functionality within a future Evergreen release and develop a list of requirements.,0
+"Become the Reports testing group, through which all new Reports development would be filtered.",0
+Compile a list of reports needed for an Executive Reports Interface.,0
+Determine and create templates needed for all PINES libraries.,0
+1.2 Product Scope and Features,0
+"The Management Processes facilitates the management of Library services, programs, and policies. Specifically, the Management Processes support the following activities, among others: ",0
+Analyzing the Library collection and its use by patrons. ,0
+Analyzing branch capacity and optimal distribution of the collection. ,0
+Analyzing the demographics and interests of the Library’s patrons. ,0
+Analyzing staff productivity and workflow. ,0
+Tracking and verifying financial transactions. ,0
+The current specification presupposes the general functionality of an ILS and specifies only those requirements that directly or indirectly relate to management activities. PINES is currently working on specifications for Acquisitions and Cataloging modules.,0
+"Moreover, the current specification is focused on functional characteristics of Management Processes. Data structures and user interfaces will require further specification and development using an iterative, prototype-oriented software development methodology. ",0
+1.3 Intended Audience,0
+"This SRS is intended both for library managers and staff who may contribute additional requirements or commentary, and for software project managers and developers who will implement the requirements. As such, it aims for a high level of readability for a non-technical audience, while providing enough specificity to be useful to a software developer.  ",0
+"It is assumed that when software development occurs, it will be in a highly collaborative and iterative environment in which end-users have multiple opportunities to review prototypes and refine the user interface and software functionality. ",0
+It is also assumed that the reader has a general understanding of Library services and processes and does not require definition of common Library terminology. ,0
+1.4 Document Conventions,0
+"The SRS includes requirements. Requirements include a reference to a process flowchart where appropriate. Flowcharts generally indicate the current approach to Management Processes in PINES, and should be considered to give contextual information rather than to prescribe or constrain new software development. ",0
+1.5 User Classes and Characteristics,0
+1.6 Operating Environment,0
+"OE-1:	Management Processes support the needs of a large, multiple-system library consortium and its individual component systems and branches. Specifically, the system must support a library consortium with 286 locations, 17 million annual circulations, purchasing and processing over 900,000 items per year. It is highly desirable that searches and reports can be processed during open hours without disrupting other system functions. ",0
+"OE-2:	Management Processes shall operate on a Linux or Solaris server.",0
+"OE-3: 	Management Processes shall be accessible through a web-browser or a Windows-compatible client.",0
+"OE-4: 	If web-browser based, Management Processes shall be accessible through Microsoft Internet Explorer (v.6.0 and later) and Mozilla Firefox (v.2.0 and later). ",0
+"OE-5:	 Management Processes shall be accessible with screen-reading software, screen-magnification software, and other software programs designed to increase accessibility. ",0
+"
+1.7 Design and Implementation Constraints",0
+"CO-1:	Management Processes shall use a fully relational database back-end. ",0
+"CO-2:	Management Processes shall produce standards-compliant HTML. ",0
+"CO-3:	Management Processes shall provide a development and training environment with the ability to migrate configurations to a production environment.",0
+"CO-4: 	User rights and privileges will be controlled through security groups and/or “roles” that allow access control for individuals, workgroups, and arbitrary staff groups. ",0
+"CO-5:	These requirements shall not constrain functionality or features of the Online Public Access Catalog (OPAC) module. ",0
+1.8 User Documentation,0
+"UD-1	The software developer shall provide complete data specifications for authority records, bibliographic records, order records, item records, hold/request records, and other records maintained or accessed by Management Processes. ",0
+"UD-2:	The software developer shall provide a thorough high-level description of major processes, including bibliographic record import and export, validation of bibliographic records against internal and external authority sources, and standard reports. ",0
+"UD-3:	The system shall provide an online, hierarchical, and cross-linked help system in HTML that describes and illustrates all system functions. ",0
+"UD-4:	The system shall provide thorough high-level error reporting and feedback and shall allow low-level query-specific feedback for Local and Global System Administrators from the front-end interface.",0
+1.9 Assumptions and Dependencies,0
+"AS-1:	Management Processes are part of an enterprise-level Library Automation System. ",0
+"AS-2:	Management Processes are consolidated at a central location, and accept input and provide services to multiple locations. ",0
+"DE-1:	Management Processes rely on the data structures and functionality of an enterprise-level Library Automation System, including Acquisitions and Cataloging modules. ",0
+"DE-2:	Management Processes interface with a variety of vendor websites, via published APIs and/or automated transfer of standard-format data files (e.g. USMARC21, EDIFACT). ",0
+"DE-3:	Management Processes interact with a patron interface, also known as an Online Public Access Catalog (OPAC).",0
+"
+System Requirements",0
+Category: Management Tools: General,0
+Req ID: PINES-001 Priority: 1,0
+Name: streamlined staff login,0
+"Description: The system supports (but does not require) streamlined staff login methods, for example staff member swipes a card to log into a terminal or the staff member logs into a terminal by using his/her individual login and password.",1
+Source: Reports Working Group (RWG),0
+Req ID: PINES-002 Priority: 1,0
+Name: report templates,0
+"Description: System administrators can create reliable report templates that are available to staff, and can be run as is or modified to the staff person's particular needs. Changes in the templates could be done without comprising the results. The administrator can limit the filters and display fields that can be altered to certify a dependable output. For example, front-line staff could set the call number range for a weeding report or add or remove designated display fields from a pick list, but couldn’t alter the template to display deleted items.",1
+Source: RWG,0
+Req ID: PINES-003 Priority: 1,0
+Name: reports permissions,0
+"Description: System provides distinct, fine-grained permission levels limiting who can create and clone reports. All permissions should be easy to administer. System administrators can create shared folders to allow or disallow staff to run specific reports, and/or to run ad hoc reports on specific sets of data.",1
+Source: RWG,0
+Req ID: PINES-004 Priority: 1,0
+Name: query tool,0
+"Description: System provides a user-friendly interface for designing queries against all record types. Staff can select fields to query; select values from picklist of possible values; select regular expressions from drop-down menu, and use a full range of Boolean operators. Administrators control staff access to tables and fields.",1
+Source: RWG,0
+Req ID: PINES-005 Priority: 1,0
+Name: board reports,0
+"Description: The system provides pre-defined reports for consumption by library boards or other consumers. There will be reports providing basic statistics like those required by the Georgia Annual Report and Application for State Aid and activity reports that indicate traffic and volume of use that display statistics on check-outs, check-ins, holds placed, and holds filled. It should be possible cross-tabulated per terminal, per branch, per library system, per hour, per patron age range, per patron type, and per patron location.",0
+Source: RWG,0
+"
+Req ID: PINES-006 Priority: 1",0
+Name: transaction data archive,0
+"Description: Transactions are archived in a form that protects patron privacy as defined by State Law, while providing useful demographic statistics.",1
+Source: RWG,0
+Req ID: PINES-007 Priority: 1,0
+"Name: periodic reports, examples",0
+Description: Examples of periodic reports: bibliographic records with holds; items that have not been checked out in X days; item-level holds; items with invalid item type; in-transit items with outstanding hold; items that have been in-transit for more than X days; items that are the last copy in the,1
+system; items with a long call number; missing items; bibliographic records with no item records; patrons with invalid home library.,0
+Source: RWG,0
+Req ID: PINES-008 Priority: 1,0
+Name: Query selections,0
+Description: System provides the query selections along with the results.,1
+Source: RWG,0
+Req ID: PINES-009 Priority: 1,0
+Name: Reports queuing ,0
+Description: Ability to see where your report is in the queue of reports waiting to run.,1
+Source: RWG,0
+"NOTE:  Req IDs PINES-010 and PINES-011 refer to Appendix A & B, which were developed based on working knowledge of Evergreen ILS version 1.4.0.4 and terms in those appendices refer to specific aspects of that product.",0
+Req ID: PINES-010 Priority: 1,0
+Name: PINES-Specific Reports Examples,0
+Description: System must be able to support the reporting definitions as described in Appendix A.,1
+Source: RWG,0
+Req ID: PINES-011 Priority: 1,0
+Name: PINES-Specific Fine-Grained Requirements,0
+Description: System must be able to support the fine-grained reports requirements as described in Appendix B.,1
+Source: RWG ,0
+Category: Management Tools: Demographics,0
+Req ID: PINES-012 Priority: 1,0
+Name: behavior and use analysis,0
+"Description: The system produces statistics that can be used to understand and predict patron behavior and use of materials. For example, how quickly is a particular book returned, on average? How likely is a particular book to be renewed? What percent of check-outs at a particular branch are renewals?",0
+Source: RWG,0
+Req ID: PINES-013 Priority: 1,0
+Name: demographic statistics,0
+"Description: The system produces useful demographic statistics, including transactions by geographical regions, age ranges, etc. The data used to produce these statistics must be anonymized, i.e. information that could be used to identify a patron is deleted.",1
+Source: RWG,0
+Category: Management Tools: Inventory Control,0
+Req ID: PINES-014 Priority: 1,0
+Name: material volume report,0
+"Description: Ability to report on the volume of material in a given library at any point in time, based on new acquisitions, items on the shelf, and items out in circulation, with the ability to break down volume in categories (e.g. total items in library, number of holds, number of adult fiction, number of board books, etc).",1
+Source: RWG,0
+Req ID: PINES-015 Priority: 1,0
+Name: system capacity interface,0
+Description: The system provides an interface showing capacity of all branches (as defined in PINES-014).,1
+Source: RWG,0
+Req ID: PINES-016 Priority: 1,0
+Name: shelf space report,0
+"Description: For each genre and format of material, ability to compare the percentage of total circulations, the percentage of the collection, and the percentage of total shelf space that genre/format comprises. Ability to report per library and per system.",1
+Source: RWG,0
+Req ID: PINES-017 Priority: 1,0
+Name: uncataloged material,0
+"Description: Ability to control inventory of uncataloged material, such as paperback books and children's board books. Support for quick distribution; minimal branch labor; and ability to identify how the material is being used. Ability to count transactions and include in circulation statistics",1
+and reports.,0
+Source: RWG,0
+Req ID: PINES-018 Priority: 1,0
+Name: item transfer utility,0
+"Description: System provides a utility for transferring batches of items between branches, used for example to move books into a mobile library, an outreach program collection, or a ""just-in-time"" warehouse. Utility includes ability to query for candidate materials; ability to save queries for repeated use; ability to manually select titles from query results; and ability to change records of all or selected items to move to new location. Mechanisms for moving items include changing location field, generating pull lists, etc. In addition, utility provides means to revert items to original location after a set period of time, and/or based on other criteria.",1
+Source: RWG,0
+Req ID: PINES-019 Priority: 1,0
+Name: missing and damaged items report,0
+Description: The system provides reports of missing and damaged items per branch.,1
+Source: RWG,0
+Req ID: PINES-020 Priority: 1,0
+Name: in-transit items report,0
+"Description: The system generates a list of items that have been in-transit for more than X days (X configurable), per branch and per system.  The report would merge the transit to and transit from into one report for ease of front-line staff use.",1
+Source: RWG,0
+"Req ID: PINES-021 Priority: 1
+Name: item record purging
+Description: The system provides a utility and reports for identifying item records to purge, based on customizable criteria such as: an item has been in status ""missing"" for more than X months; an item has status ""discard/weed"". The system has a report to assist in the conversion of items from one status to another. The system provides a last copy report that would single out a library system's last copies, to assist catalogers who need to edit WorldCat entries. The system provides a quick effective method
+of deleting volume entries along with copy entries, as well as records with no items attached.",0
+Req ID: PINES-022 Priority: 1,0
+Name: deletions,0
+"Description: Ability to count and track record deletions (e.g. item records, patron records) per location and per system.",1
+Source: RWG,0
+Category: Management Tools: Patron Records,0
+Req ID: PINES-023 Priority: 1,0
+Name: patron characteristics,0
+"Description: Queries and reports can be limited or grouped by various patron characteristics, including: age range, zip code, county of residence, home branch, patron type, and preferred language.",1
+Source: RWG,0
+Req ID: PINES-024 Priority: 1,0
+Name: inactive patrons report,0
+"Description: The system generates a list of patrons with no circulation or electronic activity in the last X days (X configurable).  List should be configurable to System, Home Library, County, etc.",1
+Source: RWG,0
+Category: Management Tools: Transaction Records,0
+Req ID: PINES-025 Priority: 1,0
+Name: transaction history,0
+Description: Transaction history is maintained for X days (X is configurable);,1
+monthly and annual aggregate information is maintained indefinitely.,0
+Related Reqs: Related Process,0
+Source: RWG,0
+Req ID: PINES-026 Priority: 1,0
+Name: examples of useful backroom statistics,0
+"Description: Transactions can be grouped by hour, terminal, branch, and system. Transactions include check-ins, check-outs, fines collected, patron registrations, etc., and can be queried by all transactions or by type of transaction.",1
+Source: RWG,0
+Req ID: PINES-027 Priority: 1,0
+Name: types of check-in,0
+"Description: The system counts all types of check-in individually and cumulatively: book-drop, by terminal, by user or self-service.",1
+Source: RWG,0
+Req ID: PINES-028 Priority: 1,0
+Name: types of check-out,0
+"Description: The system counts all types of check-out individually and cumulatively: staff check-out, self check-out, staff renewal, self checkout renewal, online renewal, OPAC renewal.",1
+Source: RWG,0
+Req ID: PINES-029 Priority: 1,0
+Name: holds and locations,0
+"Description: The system counts all hold requests, including how the hold was placed: at a staff desk, at a public computer inside the library, or remotely.",1
+Source: RWG,0
+Req ID: PINES-030 Priority: 1,0
+Name: transactions report,0
+"Description: The system can generate a report of transactions (holds placed, holds filled, and check-outs) per patron, per library, per selected group o libraries, per system, per county. The system displays the number of check-outs and placed holds per patron. Holds are subtotaled by type, e.g. active, frozen, and frozen-until holds.",1
+Source: RWG,0
+Category: Management Tools: Financial Records,0
+Req ID: PINES-031 Priority: 1,0
+Name: value of items report,0
+"Description: The system can generate a report of the value of items (based on data in item record) in the entire collection or a portion. Example: staff can obtain value of all items with status of longoverdue, or value of all dvds in children's collection, or value of entire collection.",1
+Source: RWG,0
+Req ID: PINES-032 Priority: 1,0
+Name: standard accounting practice and auditing requirements,0
+"Description: All reports and data archiving must comply with standard accounting practice and state, county, and municipal auditing requirements.",1
+Source: RWG,0
+Req ID: PINES-033 Priority: 1,0
+Name: financial data (patrons),0
+"Description: Fines, charges, waivers, and ecommerce transactions are attached to patron and item records. System tracks fines waived and payments made per library. Financial information can be updated easily. As an example, a staff user can easily query patron accounts with balances greater than X dollars",1
+Source: RWG,0
+Req ID: PINES-034 Priority: 1,0
+Name: financial reports,0
+"Description: The system provides financial reports including: patron account balances by patron, home library, and system; fines and charges accrued per time period (e.g. last twelve months, YTD, last",1
+"month) and per type of charge (overdue fines, damaged item charges, lost item charges, etc.); fines waived per time period and per branch; payments made per time period and per payment method (e.g. staff desk, self-check station, OPAC).",1
+Source: RWG,0
+Req ID: PINES-035 Priority: 1,0
+Name: financial audit trail,0
+"Description: The system maintains a ledger of patron payments, including which charges payments are applied to, to facilitate reconciliation.",1
+Source: RWG,0
+"
+Appendix A – PINES Reports Examples",0
+Canned reports would be pre-set reports,0
+On Demand Reports would be preset but have the ability to edit selection criteria and display options,0
+CIRCULATION Canned or On Demand Reports,0
+Check in Count ,0
+Checkout Count - includes checkouts only ,0
+"Items overdue by X days -daily, shelf reading, patron contact info ",0
+"Circulation Count by Circ Modifier, Cat1, and Cat2 (Adult, YA, Juv...) ",0
+Renewals Count ,0
+Non-Cat Count ,0
+"Circulation Count -total circ including checkouts, renewals, and noncats",0
+Total Circulation Count (Merging both Cat and Non-Cat circulation data by Circ Mod & Non-Cat Item Type and facility) ,0
+Circulation Count by Dewey,0
+Circulation Count by Circ Modifier  ,0
+Circulation Count by Shelving Location ,0
+Circulation Count by MARC ,0
+Circulation Count by Circ Location broken down by  ,0
+Circulation Count by Circ Location broken down Patron Home Library ,0
+Circulation Count by Age Demographic ,0
+ITEMS Canned or On Demand Reports,0
+Items Added Count ,0
+Items Deleted Count ,0
+List of Items Added ,0
+"List of Items Added (Cataloger's version, displaying the various Copy Editor fields)",0
+Items Edited Count ,0
+Items Count ,0
+List of Items by Fines Stopped Reason ,0
+Items Currently Checked Out ,0
+Items more than XX days overdue (aka Overdue Materials Report) ,0
+Items marked longoverdue by system ,0
+List of Items with a > Total Use Count  ,0
+List of Items with a < Total Use Count [Weeding Report] ,0
+List of Items Deleted ,0
+Last Copy Report (last copy owned by a library system that was deleted),0
+List of Items by  ,0
+List of Items with a status of Missing ,0
+List of Items in Transit by both sending library and destination library  ,0
+Claims returned ,0
+List of Long Overdue,0
+Weeding report - a report that lists the date of the last circulation and the number of circs - possibly create date - with the purpose of identifying candidates for de-selection.  ,0
+List of items with XXX in bib record,0
+Age of collection by call number or shelving location ,0
+Price value of collection by call number or shelving location ,0
+"Items to be Converted (used in batch converting items from one status to another -- examples, items missing for X months to be converted to discard/weed or item In process for X months to be converted to missing, etc.) ",0
+BIB RECORDS Canned or On Demand Reports ,0
+Bib Records Count ,0
+Bib Records Edited Count ,0
+Bib Records Added by user by library Count ,0
+Bib Records with No Volumes attached,0
+Bib Records missing specific MARC fields,0
+PATRONS Canned or On Demand Reports ,0
+Patron Count ,0
+Patron Added Count by Month ,0
+New Patron Count (patrons added the previous month by Demographic Category & facility),0
+Patron Count by Age Demographic ,0
+Patron Count by County   ,0
+"Patron Count by County, City, & Zip Code  ",0
+Patron Count by Home Library ,0
+Patron Count by Profile Group,0
+Patron Count by survey answer (for custom surveys) ,0
+List of patrons by survey answer (ex: survey is do you want to be on mailing list?) ,0
+ by Week,0
+List of Patrons by Expiration Date ,0
+Voter Reg Survey Responses Count by Week ,0
+List of patrons who are BARRED (JennD) ,0
+List of Patrons with inactive status ,0
+List of Staff Accounts with date of last password change and account expiration date-- GT ,0
+"List of Patrons with specific wording in notes (used to identify patrons ""pushed to collections"")",0
+HOLDS Canned or On Demand Reports ,0
+Holds Purchase Alert,0
+Items Sent for Holds ,0
+Items Received for Holds ,0
+IntraPINES Loans for all Systems ,0
+IntraPINES Loans for all Facilities ,0
+IntraPINES Loans by System ,0
+IntraPINES Loans by Facility,0
+Unfilled Holds ,0
+Annual # of holds placed,0
+Stale Holds - holds sitting on hold shelf waiting for pickup for too long,0
+IN HOUSE USE Canned or On Demand Reports ,0
+ NonCat In House Use Count by Month ,0
+ Cataloged In House Use Count ,0
+  ,0
+  TRANSITS Canned or On Demand Reports ,0
+Items In Transit to Destination Library ,0
+Items In Transit by Sending Library,0
+  ,0
+  BILLS Canned or On Demand Reports ,0
+Bills currently Owed by Patrons ,0
+Detailed Payments Received  ,0
+"Detailed Forgive, Work, and Goods Payments Received ",0
+Detailed Voids ,0
+Aged Debt ,0
+"
+Appendix B – Fine-Grained Requirements",0
+"Three interfaces - canned reports, noncanned or on demand reports, and open template reporting",0
+"Canned reports are generic reports set to run by the individual either ASAP or recurring.  There should be a certain set of templates that are pre-written and delivered with the Evergreen product.  Will have the ability for it to run by yesterday’s data, last week's, last month's, or last year's.  Canned reports can be checked off from a list to run at the same time and will be viewed within one document.",0
+Noncanned or On Demand Reports - would be for pre-selected criteria but for things like maintenance reports or collections development and  would be set to run on demand,0
+"Open Template Reporting - would have all attributes associated with say circulation, items, patrons, bills, and bibs to select from for filtering and the same attributes for displaying.  ",0
+Quick Access Interface,0
+" Ability  to hover over each title of canned report/template with pop-up box with description. i.e., “check-in count report gives monthly numbers on X for the preceding month’s.” ",1
+ Check off any part of data you want ,1
+" Ability to  select Run ASAP. Hourly, Daily, Weekly, Monthly, Yearly ",1
+"Output would be in Excel, HTML, and CSV format",1
+ Ability to enter email addresses for report to be sent to -would be great to have an address book of regularly used addresses ,1
+ Ability to edit recurring reports by adding or removing certain reports selections as well as editing the email addresses  ,1
+"Ability to determine the output results in a way such that a result could have one column for last month's circs, another for previous month's Circ, a percent difference column, previous year's month column, a percent difference from last month to last year's month column",1
+The system provides a report to assist in the batch conversion of statuses. The report would be configurable by number of months an item had been in a given status.,1
+Ability to edit canned report for display purposes such as adding shelving location as a display?  ,1
+Ability to add more canned reports via permission level,1
+Ability to get a list of items deleted that was the last copy owned by the library system in order to update WorldCat,1
+Ability to prioritize certain types of reports so they will pop to the top of the queue over resource-consuming reports ,1
+Ability to have a total use count on items as well as a use count broken down by usage date range such as an FY use count or monthly use count,1
+"Ability to retrieve total circ including checkouts, renewals, and noncats with a breakdown displaying those circ types",1
+Ability to upload a text file such as barcodes or TCN to use for filtering on a report,1
+"Ability to run reports for pre-overdue, overdue, and holds notices sent ",1
+Pivot table output ,0
+Tested and proven  output,0
+Ability to cancel a report that has already been scheduled to run or is currently running ,1
+All nulls and blank fields must be included in the results no matter what is being filtered or displayed ,1
+Ability to have real time reporting ,1
+Ability to have historical reporting - a reporting warehouse such that data can be acquired on a given date or date range.  What was the bill amount on June 30th?  What was the circ count by circ mod or shelving location on x past month even though the shelving location is currently different than it was at the time of check out. ,1
+Selection criteria is clearly defined,1
+Report results would include the date selection criteria at the top or bottom to quickly see date range selected along with the name of the report,1
+Ability to select the survey name and not have to enter the survey id for filtering,1
+Ability to run a report on deleted items that were the last copy in the facility,1
+"Ability to pull MARC record fields so that they appear on a single row of data. Currently to pull a report with title and subtitle info or a report with all of the subject headings, one must heavily massage an excessively large report with numerous duplicate rows for each title/TCN.",1
+Ability to run a report on transactions that occurred on x date and time on x workstation or by x staff,1
+Open Template Reporting,1
+"Create an ""open"" template that allows for each of the attributes associate from circulation, patrons, items, bibs, and bills to be checked of for inclusion or exclusion when filtering as well as all of those attributes can be selected for display purposes",1
+"An Open template would have all attributes associated with items, patrons, bills, circulation, and bib records to select from for filtering and the same attributes for displaying.   ",1
+"For instance, Circulation would have an option to check a box to filter by circ mod.  This would have the attribute of circ modifier as a selection to include or exclude and then have a drop down to select any circ mods to filter by.  All filter options would be listed as display option as well.  So, a display option would be circ modifier. ",1
+Ability to get a snapshot bills report going back in time. ,1
+Ability to have the last edit date on reports be for only when the item is edited and not to include last circulation,1
+Ability to indicate last circulation date,0
+Checkin Date/time should not include renewals,1
+ Software Requirements Specification For Video Search Engine Version 1.,0
+"0 approved Prepared by Alan Woosnam, Damien Holmes, Irshad, Mustapha Sheriff, Will Josephy X-ray 02/03/09 Copyright © 2002 by Karl E.",0
+ Wiegers.,0
+" Permission is granted to use, modify, and distribute this document.",0
+Software Requirements Specification for x-ray   Page ii  Contents 1.,0
+  Introduction ............................................................................................................................,0
+1 1.,0
+1  Purpose ......................................................................................................................................,0
+ 1 1.,0
+2  Intended Audience and Reading Suggestions .....................................................................,0
+ 1 1.,0
+3  Project Scope ............................................................................................................................,0
+ 1 1.,0
+4  References .................................................................................................................................,0
+ 2 2.,0
+  Overall Description ...............................................................................................................,0
+3 2.,0
+1  Product Perspective .................................................................................................................,0
+ 3 2.,0
+2  Product Features ......................................................................................................................,0
+ 3 2.,0
+3  User Classes and Characteristics ..........................................................................................,0
+ 3 2.,0
+4  Operating Environment ............................................................................................................,0
+ 3 3.,0
+  System Features ....................................................................................................................,0
+4 3.,0
+1  Torrent Search ..........................................................................................................................,0
+ 4 3.,0
+1,0
+1  Description and Priority .......................................................................................................,0
+ 4 3.,0
+1,0
+2  Stimulus/Response Sequences .........................................................................................,0
+ 4 3.,0
+1,0
+3  Functional Requirements ....................................................................................................,0
+ 4 3.,0
+2  Video Stream Search ...............................................................................................................,0
+ 5 3.,0
+2,0
+1  Description and Priority .......................................................................................................,0
+ 5 3.,0
+2,0
+2  Stimulus/Response Sequences .........................................................................................,0
+ 5 3.,0
+2,0
+3  Functional Requirements ....................................................................................................,0
+ 5 4.,0
+  External Interface Requirements ......................................................................................,0
+7 4.,0
+1  User Interfaces ..........................................................................................................................,0
+ 7 4.,0
+2  Software Interfaces ...................................................................................................................,0
+ 7 4.,0
+3  Communications Interfaces .....................................................................................................,0
+ 7 5.,0
+  Other Nonfunctional Requirements .................................................................................,0
+8 5.,0
+1  Performance Requirements ....................................................................................................,0
+ 8 5.,0
+2  Safety Requirements ................................................................................................................,0
+ 8 5.,0
+3  Security Requirements .............................................................................................................,0
+ 8 5.,0
+4  Legal Requirements .................................................................................................................,0
+ 8    Revision History Name Date Reason For Changes Version Will 2/03/09 Creation of document 1.,0
+Software Requirements Specification for x-ray  Page 1 1.,0
+ Introduction 1.,0
+1 Purpose This document will give a detailed description of the Video Searching software.,0
+ The software will be used to search multiple web sites for streaming videos and torrents and return these results to the user.,0
+  This document will cover the features of the software and include specifics on what the system will do and any constraints and external factors that might affect the system.,0
+1,0
+2 Intended Audience and Reading Suggestions This document is intended for the developers of the system and project managers as guide to building the software.,0
+" It will also be used by the potential users of the product to get their opinions on the software, this will help to revise and improve the product.",0
+  The Overall Description will give an overview of the product functionality and features.,0
+ Also mentioned are the constraints that will affect the system and the interface.,0
+ This section will be used by the rest of the document and will give a better understanding of the system.,0
+"  The third section, the System Features, gives a full description of the actions preformed by the system and gives details on the functions that are executed.",0
+ All the major services that will be provided by the product are documented here.,0
+"  The fourth section, the External Interface Requirements, will give details on the interaction between the user and the software through external interfaces.",0
+ This section will give a description on hardware and software interfaces that the Video Searching software requires to perform an action.,0
+"  Other requirements of the software will be described in the fifth section, Other Nonfunctional Requirements.",0
+ This will give the requirements for the software when dealing with external entities and restrictions.,0
+1,0
+3 Project Scope This Video Searching software will be a system that uses an active internet connection to search multiple websites for streaming videos or torrents.,0
+ The system will be used to aid the user when trying to locate a specific video or genre of video.,0
+ It will help them reduce searching time through various different websites by searching all these websites with just one query.,0
+ It provides tools to help when navigating through search results which will save time and effort.,0
+  The software aims to help the user by providing a simple interface and a more efficient way of finding the video they require.,0
+Software Requirements Specification for x-ray  Page 2 various options and tools to help make their search more relevant to the content that they need.,0
+ The system will contain databases of the different websites that will be used within the search.,0
+ These databases can be easily updated to provide a wider searching range.,0
+1,0
+"4 References Separate studies conducted by Damien C Holmes, William J Josephy, Alan Woosnam, Mustapha A Sherrif, and Irshad A Qabool on video distribution within the home.",0
+" All studies based on private homes of the authors’ choosing, all studies created on Feb 2009.",0
+  http://www.,0
+youtube.,0
+com  http://www.,0
+megavideo.,0
+com http://www.,0
+facebook.,0
+com http://www.,0
+surfthechannel.,0
+com http://www.,0
+bbc.,0
+co.,0
+uk/iplayer/ http://www.,0
+google.,0
+Software Requirements Specification for x-ray  Page 3 2.,0
+ Overall Description 2.,0
+1 Product Perspective The program is a new self-contained product.,0
+ It has come about due to the demand for such a product being identified in a series of Ethnography studies.,0
+ From these studies we saw that the main activity people used video for was the watch content found online.,0
+" These people would regularly spend periods of time searching websites to try and find the videos they wanted to watch, either somewhere to stream the video from or the files to download the video.",0
+" This was especially true of the studies by Alan Woosnam, Irshad Qabool and Will Josephy.",0
+ Our system will aim to speed up this process.,0
+2,0
+2 Product Features The main feature of the system will be a search engine for finding the location of torrents and streaming sites for videos on the internet.,0
+ The user can specify which of the 2 or both to look for.,0
+" The results will be divided into the types that were specified using different tabs, and then the results will be orderable by different categories, such as name, size, site, etc.",0
+" The user will have the option to filter out videos containing certain content depending on age restrictions, for example adult content.",0
+ In addition the user will have the option to filter out or only search certain websites; for example a user may only want to look at videos on YouTube.,0
+" They will have the facility for users to store their favorite videos, so that they can come back to the video at another time.",0
+2,0
+3 User Classes and Characteristics There will be two levels of user for our system.,0
+ The first will be the general user that will be using our software to find their videos.,0
+ They will only see the front end of the system.,0
+ The second level will be the system developers.,0
+" They will be able to edit which sites the system will search, depending on whether they think the site is safe, compatible with our software, the speed at which the site can be searched, and how useful the site is to us, i.",0
+e.,0
+ how many results have come back from that site.,0
+2,0
+"4 Operating Environment The system will be portable; this means it will work across different operating systems including Microsoft XP and Vista, Mac OS X and a range of Linux platforms.",0
+" Also it will work with different web browsers, for example Internet Explorer, Firefox, and Safari.",0
+  The hardware needed for our system will be a reasonably up-to-date computer that is connected to the internet via a modem.,0
+Software Requirements Specification for x-ray  Page 4 3.,0
+ System Features 3.,0
+1 Torrent Search 3.,0
+1,0
+1 Description and Priority The user will give a search-term that will search through a database of compatible torrent websites that are added by the development team.,0
+ The results of this search will be displayed as web links in a tab on the program’s main window.,0
+ This is one of the main features of the software and therefore has a high priority for development.,0
+3,0
+1,0
+2 Stimulus/Response Sequences User ticks torrent tick box – system will now query the torrent websites in its database when a search is started.,0
+ User enters search term and starts search – system sends queries to the torrent websites in its database based on the search term.,0
+" Results for this query will then be sent to the torrent tab in the program where they will display information such as website, seeds, peers, size, date posted and a link for the webpage.",0
+  User sorts the search results by clicking once on a column header – system sorts all results by descending/ascending order.,0
+ User clicks on next page button – system displays the next set of results for the search.,0
+3,0
+1,0
+3 Functional Requirements REQ-1: Torrent search will share the same search bar with the streaming search.,1
+ REQ-2: Database of torrent sites can be updated via the internet.,1
+ REQ-3: There will be a tick box to allow the user to choose to include torrent searching in the search.,1
+ REQ-4: Query will retrieve the no.,1
+" of seed and peers, size of the file, date posted and a link to the webpage itself.",1
+ REQ-5: If no results are found on a search it will display a message “No results were found for this search.,1
+” REQ-6: Results will be arranged in size/date/alphabetical order by clicking on the column headers.,1
+ REQ-7: There will be page button for the user to navigate the results.,1
+Software Requirements Specification for x-ray  Page 5 3.,0
+2 Video Stream Search 3.,0
+2,0
+"1 Description and Priority This feature will search a term the user enters, through a database of compatible video streaming websites that are added by the development team.",0
+" The video websites will range from sites that actually host video such as MegaVideo, YouTube, etc as well as websites that show links to videos hosted on other sites such as surfthechannel.",0
+"com, alluc.",0
+"org, etc.",0
+ The results will be displayed in a tab on the programs main window.,0
+" This tab will be split horizontally into two sections, the top half for the video hosting sites and the bottom half for the video link sites.",0
+ This is another of the main features of the software and also has a higher priority for development.,0
+3,0
+2,0
+2 Stimulus/Response Sequences User ticks streaming host tick box – system will now query the video hosting sites in its database when a search is started.,0
+" Hosting sites will include the actual videos on their servers, e.",0
+g.,0
+ YouTube.,0
+ User ticks streaming links tick box – system will now query the video link sites in its database when a search is started.,0
+" The link sites will include external video links to different video hosting sites, e.",0
+g.,0
+ surfthechannel.,0
+com.,0
+ User enters search term and starts search – system sends queries to the video websites in its database based on the search term.,0
+ Results for this query will then be sent to the video stream tab in the program.,0
+" The hosting half of the tab displays the website, full video name, length and date posted.",0
+ The link half of the tab displays the website and video name (e.,0
+g.,0
+ combination of the show’s name and the episode name).,0
+ User sorts the search results by clicking once on the column header – system sorts all results by descending/ascending order.,0
+ User filters websites they want to be shown in the results – system removes unselected websites from the results.,0
+ User clicks on next page button – system displays the next set of results for the search.,0
+3,0
+2,0
+3 Functional Requirements REQ-1: Streaming search will share the same search bar with the torrent search.,1
+ REQ-2: Database of video hosting and video linking sites can be updated via the internet.,1
+ REQ-3: There will be a tick box to allow the user to choose to include video host searching in the search.,1
+Software Requirements Specification for x-ray  Page 6 REQ-4: There will be a tick box to allow the user to choose to include video link searching in the search.,1
+" REQ-5: Query to video hosting sites will retrieve full video name, length, date posted and a link to the video itself.",1
+" REQ-6: Query to video link sites will retrieve the show’s name, episode name and a link to the webpage itself.",1
+ REQ-7: If no results are found on a search it will display a message “No results were found for this search.,1
+” REQ-8: Results will be arranged in length/date/alphabetical order by clicking on the column headers.,1
+ REQ-9: There will be page button for the user to navigate the results.,1
+Software Requirements Specification for x-ray  Page 7 4.,0
+ External Interface Requirements 4.,0
+"1 User Interfaces The user Interface will consist of one main screen, allowing all the functionally to come from this one screen.",0
+ This allows the user to use the software with ease by not flicking through a number of different screens.,0
+ In addition to this the user can always see the videos they are looking for.,0
+ The main screen will be laid out as in Appendix: B Diagram along with the description of the diagram.,0
+ We decided on this type of interface because we felt that it would be very simple for the user to navigate.,0
+" From our reports we found that the simpler the interface was, the more people liked it.",0
+  With all these features complied into one screen it will give the software more flexibility and allows for easy and simple usage.,0
+ This will appeal to both naïve computer users and experienced computer users with a higher selling market.,0
+4,0
+2 Software Interfaces The software will use hyperlinks to allow the user to open websites in their default web browser.,0
+4,0
+3 Communications Interfaces Communication standards that will be used through the software will be PHP or other such languages.,0
+Software Requirements Specification for x-ray  Page 8 5.,0
+ Other Nonfunctional Requirements 5.,0
+1 Performance Requirements REQ-1: Query times will take no longer than 5 seconds to any website.,1
+ REQ-2: Sending the hyperlink to the default browser will take less than 1 second.,1
+ REQ-3: Loading the program will take less than 10 seconds.,1
+ REQ-4: Any torrent result with 0 seeds will not be displayed.,1
+ 1 REQ-5: Sorting results should take less than 0.,1
+1 seconds.,0
+ REQ-6: A results page will display 100 results.,1
+ REQ-7: Any torrent result with a rating of less than 1 will not be displayed.,1
+ 2  1 – Any torrent with 0 seeds cannot guarantee to be fully downloaded.,0
+ 2 – Any torrent with a rating of less than 1 should not be fully trusted; this was one of the main complaints from users in William Josephys ethnographic study.,0
+5,0
+"2 Safety Requirements Our development team must thoroughly investigate each website within our database each month, to ensure that no illegal or harmful content is exposed to our users.",0
+5,0
+3 Security Requirements We don’t maintain any user data or host any content.,0
+5,0
+"4 Legal Requirements While all safety measures resulting from the site may not be fully identified, a recommendation of a full legal review of the software should be undertaken before the site is available to the public.",0
+" In doing so, the site will be subject to full indemnification of liability.",0
+"  The system we produce will stay within all the legal requirements on our behalf, as our software is only listing links for video streams and video download, and this is not illegal.",0
+ Our system will not host any videos.,0
+Software Requirements Specification for x-ray  Page 9 Appendix A: Glossary  Terminology taken from Google:  Peer: A peer is one instance of a BitTorrent client running on a computer on the Internet that you connect to and transfer data.,0
+  Seed: a complete copy of the file being made available for download.,0
+   Torrent: A Torrent in the Internet world is a site that uses BitTorrent technologies to host file for P2P file download and sharing.,0
+ A torrent contains the location of data files that can be download from the BitTorrent peer-to-peer network.,0
+ ...,0
+Software Requirements Specification for x-ray  Page 10 Appendix B: Diagrams  4 13  2                                5 1- The first feature of the software is a menu bar.,0
+" This software includes the basic features used in similar products such as new search, close, load etc.",0
+ However with our software there are two extra features.,0
+ These being a filter option which allows the user to set parental controls over the software.,0
+ This enables the user to be able to search for videos without getting explicit content.,0
+ In addition to this there is a favorite’s option.,0
+" This feature gives the user the option of being able to store links to their favorite videos in the software, and be able to go back to these websites after restarting the software.",0
+  2- This is the main engine behind the software.,0
+ This is where the user enters the name of the video they wish to search for.,0
+ Once the user has typed in the name of their desired video they can either press the enter key or the search button to run the query.,0
+"   3- These tick boxes tell the software to search for either torrents or streaming videos, depending on what type of video the user wishes to view.",0
+   4- These are the tabs which bring up the different pages of the search results.,0
+ This allows the user to run multiple searches and keep different search results stored at the same time.,0
+Software Requirements Specification for x-ray  Page 11  5- This is where the actual search results will be displayed.,0
+" Within these display fields the user will be told the name of the video, the location of the video (which website the video is on), the size of the video so the user can decide if they wish to download the video or just to stream the video, the rating of the video with information on how safe the website is, and finally comments on the video (what other user think of the video).",0
+ With this the user can then decide on how he wants the search results sorted using the column headers at the top.,0
+Software Requirements Specification for x-ray  Page 12 Appendix C: Issues List In the next version we will consider adding a system to also search UseNet Binaries.,0
+  Agency for Enterprise Information Technology (AEIT)  Enterprise E-mail Functional Requirements Specification  Version 1.,0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  Revision History  Date Version Description Author 8/27/2009 1.,0
+0 Basic and Extended requirements Scott Jecko added to document for review by functional requirements team.,0
+ 9/1/2009 1.,0
+1 Basic and extended requirements Scott Jecko updated based on feedback from requirements team.,0
+ 9/2/2009 1.,0
+2 Document updated (archiving Scott Jecko requirements added) in preparation for sending to team and key stakeholders for final review.,0
+ 9/4/2009 1.,0
+3 Document updated: added basic Scott Jecko requirements 1.,0
+9 and 1.,0
+10 (public folders) based on feedback from technical team.,0
+ 9/15/2009 1.,0
+4 Document updated: added basic Scott Jecko requirement 1.,0
+27 (ability for user to customize their view in the client application) based on feedback  from AEIT Advisory Committee.,0
+ 9/17/2009 1.,0
+5 Document updated: modified Scott Jecko requirements 1.,0
+"14, 1.",0
+"22, 1.",0
+"72, and 1.",0
+77 based on feedback from HSMV.,0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009     Table of Contents 1.,0
+ Enterprise E-mail Scope 1 2.,0
+ Requirements Workgroup Methodology 2 3.,0
+ Requirements Workgroup Goals 3 4.,0
+ Requirements Workgroup Glossary 4 5.,0
+ Requirements Workgroup Team 5 6.,0
+ Requirements Workgroup References 5 7.,0
+ Basic Functional Requirements 6 8.,0
+ Extended Functional Requirements 10 9.,0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  Requirements Specification 1.,0
+ Enterprise E-mail Scope Define the scope of the “Enterprise E-mail” project.,0
+  (from F.,0
+S.,0
+282,0
+34 and Preliminary Scope Statement).,0
+282,0
+34  Statewide e-mail system.,0
+#NAME?,0
+282,0
+41,0
+ The service shall be designed to meet the needs of all executive branch agencies and reduce the current cost of operation and support.,0
+ The product of this project will be a proposed plan for the establishment of the statewide electronic mail system.,0
+" By December 31, 2009, the AEIT shall submit the proposed plan to the Governor, the President of the Senate, and the Speaker of the House of Representatives.",0
+" The plan shall be developed to reduce costs to the state and include, at a minimum:  a) An analysis of the in-house and external sourcing options that should be considered for delivery and support of the service.",0
+" The analysis shall include an internally hosted system option, an externally sourced system option, and, if necessary, a combined in-house and externally sourced option.",0
+"  b) A cost-benefit analysis that estimates all major cost elements associated with each sourcing  option, including the nonrecurring and recurring costs of each option.",0
+ The analysis must also include a comparison of the total cost of each enterprise e-mail sourcing option and the total cost of existing e-mail services in order to determine the level of savings that can be expected.,0
+  c) Estimated expenditures for each state agency associated with e-mail costs for the 2009-2010 fiscal year.,0
+  d) The plan must identify any existing e-mail infrastructure that should be considered for reuse.,0
+"  e) A concise analysis of the ability of each sourcing option to meet major system requirements, including federal and state requirements for confidentiality, privacy, and security.",0
+"  f) A complete description of the scope of functionality, operations, and required resources associated with each sourcing option.",0
+  g) Recommendations for standardizing the format of state e-mail addresses.,0
+"  h) A reliable schedule for the decommission of all state agency e-mail systems and the migration of all agencies to the new system beginning by July 1, 2010, and completing by June 30, 2013.",0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  2.,0
+ Requirements Workgroup Methodology Define the process by which requirements were gathered and grouped as either “basic” or “extended”.,0
+"  The primary objective for the requirements workgroup was to gather all functional requirements for the state e-mail system (via excel spreadsheet) and compile all requirements into a complete, concise, and categorized functional requirements specification.",0
+" The activities required to compile the requirements specification included reviewing the 2006 e-mail survey (and additional historical documentation), creating the 2009 e-mail survey, sending 2009 survey to agency e-mail (business) experts, compiling survey results into the formal requirements specification, and obtaining requirements approval from key stakeholders.",0
+ Note: There are two subsequent surveys being sent out (to gather current agency inventory and financial information); the results of these two subsequent surveys are not included in this document.,0
+  The workgroup reviewed the 2006 survey (and other data sources such as schedule IV-C data and AEIT DCC questionnaire) and determined the list of categories and questions to be included in the survey.,0
+" Agencies were asked to respond to each requirement question by selecting “currently have and use”, “do not have/do not use”, or “would like to have”.",0
+"  Agreed upon categories for the 2009 survey included E-mail, Calendar, & Contacts (user interface and administrative re quirements); Archiving, Retention, Search, Discovery requirements; Disaster Recovery requirements, Backup & Restore requirements; Security, Anti-Virus, Filtering requirements; Remote Access & Mobile Messaging requirements; Additional E-mail requirements.",0
+ The survey also provided a section for agencies to address their concerns/issues regarding a statewide e-mail system.,0
+"  Upon receiving all survey responses, the workgroup determined which requirements should be recommended for inclusion in the “basic” and “extended” section of the functional requirements specification.",0
+" Factors that were considered in the basic or extended decision included, % of agencies that currently provide, # of total users currently supported, and the legal necessity of fulfilling the requirement.",0
+" The workgroup also identified whether the requirement will be a user, agency admin, or SSRC admin capability.",0
+"   Once approval of this document is obtained from key stakeholders, these functional requirements will be used as an attachment in upcoming RFI’s and potential RFP’s (or ITN’s).",0
+ An in house or externally sourced solution should meet the basic functional requirements specified in this document (or provide ample reasoning why a requirement is not technically or financially feasible).,0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  3.,0
+ Requirements Workgroup Goals Goal ID: Name – Description Manage Scope: Understand the preliminary scope statement for the statewide e-3.,0
+1 mail system and ensure that requirements remain within scope.,0
+3,0
+2 Manage Time: Specification must be complete within 6 weeks (30 business days).,0
+ Manage Time: Workgroup will use the 2006 Messaging Optimization Workgroup 3.,0
+3 Survey as a basis for the 2009 Enterprise e-mail survey.,0
+ Ensure Completeness: Specification must be complete and detailed enough to 3.,0
+4 submit to outside vendors as Request For Information (RFI) or Request For Proposals (RFP) or an Invitation to Negotiate (ITN).,0
+" Ensure Completeness: Specification must include an attachment which provides a narrative and breakdown of existing agency resources (personnel, equipment – including storage capabilities, software-licenses) and current spend (reuse IV-C data 3.",0
+5 where applicable) on e-mail.,0
+ (Note: this information will be captured in the inventory survey which is being compiled by the Enterprise E-mail technical team – and is not included in this functional specification.,0
+")  Ensure Completeness: Specification must include an attachment which lists each agencies’ risks, issues, or constraints (such as software-application dependencies, contracts, or legal requirements) that may affect their ability to transition to an 3.",0
+6 Enterprise E-mail System.,0
+ (Note: this information will be compiled into a FAQ document which will be posted to the project web site and made available to all stakeholders.,0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  4.,0
+ Requirements Workgroup Glossary Glossary Name – Description ID: Basic requirements - The functional requirements that should be met as part of the 4.,0
+1 “basic” (minimal) solution-offering (whether in house or outsourced).,0
+ Note: all functional requirements will be subject to a technical and financial feasibility analysis.,0
+ Extended requirements - The functional requirements that could be met as part of the 4.,0
+2 “extended” solution offering (potentially at an additional cost to the customer).,0
+ Note: all functional requirements will be subject to a technical and financial feasibility analysis.,0
+" E-mail, Calendar, Contacts - The end-user services of an e-mail product that can be 4.",0
+3 found in all e-mail platforms in use by the State today.,0
+"  Archiving, Retention, Discovery - The method of retaining e-mail messages to comply with the Freedom of Information Act, Florida Public Records Law, State and Federal retention requirements, Sarbanes Oxley, HIPAA or agency-specific requirements; Archiving is a systematic approach to saving and protecting e-mail messages in their entirety which can be retrieved by the individual user and/or a system administrator; Retention is a period of time e-mail messages are retained to meet agency and/or 4.",0
+"4 federal requirements; Discovery is the ability to search e-mail archives, journals, etc.",0
+"  based on specific criteria to provide information for legal and public records requests; Search is the ability to scan e-mails based on specific criteria such as sender, date, subject, content, etc.",0
+ and produce results for review.,0
+" E-mail Searches for compliance with Federal Rules of Civil Procedure, public record requests, court ordered production of electronic records, IG or internal investigations, etc.",0
+" include various levels of complexity, software utilities and their underlying databases.",0
+ Disaster Recovery - The services that allow an agency to continue to work during and/or soon after a disaster.,0
+ Disasters can affect one agency in the loss of a server to 4.,0
+5 affecting multiple agencies after a natural disaster such as a hurricane.,0
+ Business continuity and recovery plans are designed to address all severity levels.,0
+ Backup & Restore - Making copies of data so that these additional copies may be used 4.,0
+6 to recover the original after a data loss event.,0
+" Security, Anti-Virus, Filtering - The services that protect the end-user from receiving 4.",0
+"7 inappropriate, threatening and/or destructive messages as well as protecting sent data.",0
+" Remote Access, Mobile Messaging - The method by which a user can access their e-4.",0
+8 mail and/or other services by means other than at their work site.,0
+ Additional E-mail Services - The features and services that allow users to 4.,0
+"9 communicate with their co-workers, project team, etc.",0
+ outside of sending an e-mail.,0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  5.,0
+ Requirements Workgroup Team Name Role Contact E-mail Contact Phone Jason Allison Project Lead Jason.,0
+Allison@aeit.,0
+myflorida.,0
+com 414-8046 Requirements 414-6776 Scott Jecko Lead Scott.,0
+jecko@aeit.,0
+myflorida.,0
+com Terry Kester Requirements Terry.,0
+Kester@aeit.,0
+myflorida.,0
+com 413-7906 Lead Workgroup 921-4487 Scott H.,0
+ Higgins scott_higgins@dcf.,0
+state.,0
+fl.,0
+us Participant Workgroup 727.,0
+518,0
+3202 ext.,0
+ Joel Gallay gallayj@fdva.,0
+state.,0
+fl.,0
+us Participant 507 Workgroup 414-4057 James Payne James.,0
+Payne1@dot.,0
+state.,0
+fl.,0
+us Participant Workgroup 414-4417 Stacey Burns Stacey.,0
+Burns@dot.,0
+state.,0
+fl.,0
+us Participant Workgroup 728-6308 Phillip Gorden Phil.,0
+Gorden@dot.,0
+state.,0
+fl.,0
+us Participant Workgroup 245-3117 Kevin Kerckhoff Kevin.,0
+Kerckhoff@dep.,0
+state.,0
+fl.,0
+us Participant Workgroup 414-2952 George Powell  George.,0
+Powell@ssrc.,0
+myflorida.,0
+com Participant  6.,0
+ Requirements Workgroup References Reference Name Location and Description Preliminary Scope AEIT Site Statement http://www.,0
+myflorida.,0
+com/myflorida/cabinet/aeit/index.,0
+php?pg=proj&proj=ent_e-mail Florida Statute Fl Senate Site 282.,0
+34 http://www.,0
+leg.,0
+state.,0
+fl.,0
+us/STATUTES/index.,0
+cfm?App_mode=Display_Sta(Statewide e-mail tute&Search_String=&URL=Ch0282/SEC34.,0
+HTM&Title=-%3e2009-system) %3eCh0282-%3eSection%2034%230282.,0
+34 Florida Statute Fl Senate Site 282.,0
+041 http://www.,0
+leg.,0
+state.,0
+fl.,0
+us/Statutes/index.,0
+cfm?App_mode=Display_Statut(Definitions) e&Search_String=&URL=Ch0282/SEC0041.,0
+HTM&Title=->2008->Ch0282->Section%200041#0282.,0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  7.,0
+ Basic Functional Requirements  Req.,0
+ Category   List the basic functional requirements – what capabilities # should the service provide.,0
+1,0
+"1 E-mail, Calendar, Ability for the user to send, receive, and delete e-mail and Contacts attachments.",1
+1,0
+"2 E-mail, Calendar, Ability for the user to reply to e-mail and attachments.",1
+ Contacts  1.,0
+"3 E-mail, Calendar, Ability for the user to forward e-mail and attachments.",1
+ Contacts 1.,0
+"4 E-mail, Calendar, Ability for the user to print e-mail messages.",1
+ Contacts 1.,0
+"5 E-mail, Calendar, Ability for the user to customize e-mail messages with word Contacts processor like features for formatting of e-mail content.",1
+1,0
+"6 E-mail, Calendar, Ability for the user to establish rules (auto reply, out of office reply, Contacts temporary transfer to another party, move files to inbox folders).",1
+1,0
+"7 E-mail, Calendar, Ability for the user to spell check.",1
+ Contacts 1.,0
+"8 E-mail, Calendar, Ability for the user to organize content into personal folders or Contacts similar storage mechanism to aid with e-mail retrieval.",1
+1,0
+"9 E-mail,  Calendar, Ability for the agency admin to migrate existing public folders into Contacts the statewide e-mail system.",1
+1,0
+"10 E-mail, Calendar, Ability for the agency admin to create and manage public folders Contacts or similar storage mechanism to aid with the collection, organization, and sharing of information with other people in their individual agency or organization.",1
+1,0
+"11 E-mail, Calendar, Ability for the user to create contact lists, including those imported Contacts from other sources.",1
+1,0
+"12 E-mail, Calendar, Ability for the user to export contact lists.",1
+ Contacts 1.,0
+"13 E-mail, Calendar, Ability for the user to share contact lists / address book.",1
+ Contacts 1.,0
+"14 E-mail, Calendar, Ability for the agency admin to create and share distribution lists Contacts (including the ability to create query based distribution lists from LDAP-like directory services).",1
+1,0
+"15 E-mail, Calendar, Ability for the user to create calendars and customize calendar Contacts views.",1
+1,0
+"16 E-mail, Calendar, Ability for the user to schedule resources such as conference Contacts rooms, teleconference rooms, etc.",1
+1,0
+"17 E-mail, Calendar, Ability for the user to create reminders and tasks.",1
+ Contacts 1.,0
+"18 E-mail, Calendar, Ability for the agency admin to accommodate programmer testing Contacts of e-mail functionality embedded in software applications.",1
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  1.,0
+"19 E-mail, Calendar, Ability for the user to share inbox, calendar, and files with users, Contacts given permission.",1
+1,0
+"20 E-mail, Calendar, Ability for the user to delegate their permissions to another user.",1
+ Contacts 1.,0
+"21 E-mail, Calendar, Ability for the user to embed links to files and websites in e-mails.",1
+ Contacts 1.,0
+"22 E-mail, Calendar, Ability for the agency admin to provision e-mail accounts for their Contacts individual agency or organization (including the ability to integrate e-mail account provisioning with LDAP-like directory services).",1
+1,0
+"23 E-mail, Calendar, Ability for the user to search for e-mails based on age, size, Contacts sender, recipient, subject, key word, attachment content.",1
+1,0
+"24 E-mail, Calendar, Ability for the agency admin to auto-enforce standard conventions Contacts for creating accounts and distribution lists.",1
+1,0
+"25 E-mail, Calendar, Ability for the data center admin to control message size limits for Contacts e-mail (inbound and outbound).",1
+1,0
+"26 E-mail, Calendar, Ability for the agency admin to create generic email Contacts accounts/addresses to be accessed by multiple users.",1
+1,0
+"27 E-mail, Calendar, Ability for the user to customize their view in the client application Contacts (such as adding fields, arranging fields, and ordering emails by fields).",1
+1,0
+"28 Archiving, Ability for the user to archive at the desktop.",1
+" Retenti on, Discovery 1.",0
+"29 Archiving, Ability for the agency admin to provide a server based archiving Retention, solution.",1
+ Discovery 1.,0
+"30 Archiving, Ability for the agency admin to archive at various regularly defined Retention, intervals.",1
+ Discovery 1.,0
+"31 Archiving, Ability for the agency admin to search archive and forward, print Retention, and restore in bulk items from archive.",1
+ Discovery 1.,0
+"32 Archiving, Ability for the agency admin to filter archive by sender, recipient, Retention, date, subject, content, attachments, keyword, etc.",1
+ Discovery 1.,0
+"33 Archiving, Ability for the agency admin to provide long term retention Retention, separate from active e-mail system.",1
+ Discovery 1.,0
+"34 Archiving, Ability for the agency admin to provide individual users the ability Retention, to search their portion of the archive repository.",1
+ Discovery 1.,0
+"35 Archiving, Ability for the agency admin to meet Federal regulations for Retention, retention (i.",1
+e.,0
+" Sarbanes Oxley, Gramm-Leach-Bliley Act (GLB), Discovery HIPAA, etc.",0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  1.,0
+"36 Archiving, Ability for the agency admin to satisfy legal requests for e-mail Retention, discovery and provide printed or digital results.",1
+ Discovery 1.,0
+"37 Archiving, Ability for the agency admin to capture all sent and received e-Retention, mails into the organization.",1
+ Discovery 1.,0
+"38 Archiving, Ability for the agency admin to select the e-mail retention period Retention, for a specific e-mail (e.",1
+g.,0
+" 1 year, 3 year, or 5 year).",0
+ Discovery 1.,0
+"39 Archiving, Ability for the agency admin to search the e-mail ""header"" Retention, including Date: From, Subject, To, and CC.",1
+ Discovery 1.,0
+"40 Archiving, Ability for the agency admin to search the ""body"" of the e-mail Retention, including the header and all text contained within the e-mail itself.",1
+ Discovery 1.,0
+"41 Archiving, Ability for the agency admin to perform a ""full text"" search Retention, including the header, body and any attachments to the e-mail.",1
+ Discovery 1.,0
+"42 Archiving, Ability for the agency admin to support litigation requests by Retention, production of responsive e-mail in to a specified location, for read Discovery and redaction purposes.",1
+1,0
+"43 Archiving, Ability for the agency admin to move older data to tiered storage Retenti on, (lower cost storage) while maintaining accessibility.",1
+ Discovery 1.,0
+"44 Archiving, Ability for the agency admin to import data from other sources Retention, such as PST, NSF files into archiving solution.",1
+ Discovery 1.,0
+"45 Archiving, Ability for the agency admin to put discovery search results on Retention, legal hold to suspend deletion.",1
+ Discovery 1.,0
+"46 Archiving, Ability for the user (Legal, OIG, etc.",1
+") to review and mark discovery Retention, search results.",0
+ Discovery 1.,0
+"47 Archiving, Ability for the agency admin to search using Boolean fields.",1
+" Retention, Discovery 1.",0
+"48 Archiving, Ability for the agency admin to archive based on policy (i.",1
+e.,0
+" e-mail Retention, address, OU, group, organization, etc.",0
+) Discovery 1.,0
+"49 Archiving, Ability for the user to delete, or flag for deletion by system Retention, administrators, e-mails that have met their retention, in Discovery accordance with s.",1
+119,0
+021(2)(c) which requires agencies to “systematically dispose of records no longer needed.,0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  1.,0
+"50 Archiving, Ability for the user to flag individual e-mails to not be archived.",1
+"  Retention, Discovery 1.",0
+"51 Backup, Restore Ability for the data center admin to recover at the file level.",1
+1,0
+"52 Backup, Restore Ability for the data center admin to recover all messages.",1
+1,0
+"53 Backup, Restore Ability for the data center admin to recover a specific e-mail message.",1
+1,0
+"54 Backup, Restore Ability for the data center admin to recover by mailbox.",1
+1,0
+"55 Backup, Restore Ability for the data center admin to recover by time.",1
+1,0
+"56 Backup, Restore Ability for the data center admin to maintain backup and restore event logs.",1
+1,0
+"57 Backup, Restore Ability for the data center admin to restore previous backup without service interruption.",1
+1,0
+"58 Security, Anti- Ability for the data center admin to provide pre-emptive e-mail Virus, Filtering virus protection (scanning prior to delivery at the mail server).",1
+1,0
+"59 Security, Anti- Ability for the data center admin to provide pre-emptive e-mail Virus, Filtering content filtering.",1
+1,0
+"60 Security, Anti- Ability for the data center admin to whitelist/blacklist senders by Virus, Filtering domain or IP address.",1
+1,0
+"61 Securit y, Anti- Ability for the data center admin to block or allow e-mail based on Virus, Filtering multiple message attributes.",1
+1,0
+"62 Security, Anti- Ability for the data center admin to integrate message hygiene Virus, Filtering (antispam/antivirus) with LDAP.",1
+1,0
+"63 Security, Anti- Ability for the data center admin to provide message hygiene Virus, Filtering (antispam/antivirus) statistical reports.",1
+1,0
+"64 Security, Anti- Ability for the user to encrypt outbound e-mail.",1
+" Virus, Filtering 1.",0
+"65 Security, Anti- Ability for the user to establish TLS encryption with other Virus, Filtering businesses or customers.",1
+1,0
+"66 Security, Anti- Ability for the data center admin to protect the reputation of Virus, Filtering outbound mail gateways.",1
+1,0
+"67 Security, Anti- Ability for the data center admin to protect internal e-mail customer Virus, Filtering identity.",1
+1,0
+"68 Remote Access, Ability for the user to access e-mail by secure web or client.",1
+" Mobile (Calendar, Address book, Ability to send and receive).",1
+ Messaging 1.,0
+"69 Remote Access, Ability for the user to access e-mail with Blackberry services using Mobile BlackBerry device.",1
+ Messaging 1.,0
+"70 Remote Access, Ability for the user to access e-mail with non-Blackberry mobile Mobile data devices (iPhones, Treos, Pres.",1
+ Etc.,0
+).,0
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  1.,0
+"71 Remote Access, Ability for the agency admin to support other mobile device Mobile protocols (ActiveSync).",1
+ Messaging 1.,0
+"72 Remote Access, Ability for the agency admin to Create, Update and Delete Mobile Blackberry accounts.",1
+ Messaging 1.,0
+"73 Remote Access, Ability for the user to access mailbox and components via a web Mobile browser over a secure (encrypted) connection.",1
+ Messaging 1.,0
+74 Additional E-mail Ability for the user to send/receive e-mails within workflow Services applications.,1
+1,0
+75 Additional E-mail Ability for the user to provide resource reservations integrated into Services e-mail.,1
+1,0
+76 Additional E-mail Ability for the user to access an SMTP bridgehead for agency Services applications.,1
+1,0
+77 Additional E-mail Ability for the user to integrate agency applications into the e-mail Services and mobile messaging environments.,1
+8,0
+ Extended Functional Requirements  Req.,0
+ Category   List the extended functional requirements – what additional # capabilities could the service provide.,0
+2,0
+"1 Archiving, Ability for the user to manually archive to server from their client.",1
+" Retention, Discovery 2.",0
+"2 Archiving, Ability for the agency admin to electronically redact information Retention, from archival storage.",1
+ Discovery 2.,0
+"3 Archiving, Ability for the agency admin to digitally certify search results.",1
+" Retention, Discovery 2.",0
+"4 Archiving, Ability for the agency admin to catalog responsive e-mail (by case) Retention, so that e-mail can be electronically certified as complete to fulfill Discovery the production.",1
+2,0
+"5 Archiving, Ability for the agency admin to demonstrate due diligence and Retention, maintain markings for privileged and non-responsive search Discovery results.",1
+2,0
+"6 Archiving, Ability for the agency admin to provide a full audit trail of discovery Retention, and review.",1
+ Discovery 2.,0
+7 Disaster Ability for the data center admin to do real-time replication to Recovery alternate site.,1
+2,0
+8 Disaster Ability for the data center admin to do near-time replication to Recovery alternate site.,1
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  2.,0
+9 Disaster Ability for the data center admin to fail-over mail system and Recovery clients to alternate site.,1
+2,0
+"10 Security, Anti- Ability for the data center admin to retrieve quarantined messages.",1
+" Virus, Filtering 2.",0
+"11 Security, Anti- Ability for the data center admin to add digital signatures to e-mail.",1
+" Virus, Filtering 2.",0
+"12 Remote Access, Ability for the user to access e-mail archive.",1
+ Mobile  Messaging 2.,0
+"13 Remote Access, Ability for the user to use wireless service with GIS.",1
+ Mobile  Messaging 2.,0
+14 Additional E-mail Ability for the user to provide fax service integrated into e-mail.,1
+ Services  2.,0
+15 Additional E-mail Ability for the user to integrate telephone messaging (VOIP) into e-Services  mail and vice/versa.,1
+2,0
+16 Additional E-mail Ability for the user to provide List Server option for internal and Services  external publishing of information (report subscriptions).,1
+2,0
+17 Additional E-mail Ability for the agency admin to integrate directory services with Services  other complimentary external systems for a unified client  experience.,1
+2,0
+18 Additional E-mail Ability for the agency admin to provide RSS Feeds.,1
+Enterprise E-mail   Version:           1.,0
+5 Customer (Functional) Requirements   Created on 07/23/2009  9.,0
+" Functional Requirements Summary   The functional requirements discovery and analysis process yielded the following results:  • Email, Calendar, and Contacts service category had a 97% “have and use” response average.",0
+" • Archiving, Retention, Discovery service category had a 66% “have and use” response average and a 23% “would like to have” response average.",0
+ • Disaster Recovery service category had a 59% “have and use” response average and a 34% “would like to have” response average.,0
+ • Backup & Restore service category had a 79% “have and use” response average and a 19% “would like to have” response average.,0
+" • Security, Anti-Virus, Filtering service category had a 67% “have and use” response average and a 24% “would like to have” response average.",0
+" • Remote Access, Mobile Messaging service category had a 71% “have and use” response average and an 11% “would like to have” response average.",0
+ • Additional E-mail service category had a 48% “have and use” response average and a 26% “would like to have” response average.,0
+"   Based on these r esults, the majority of requirements for each category made it into the basic requirements recommendation.",0
+" In each category except for email, calendar and contacts,  the survey showed that there is a potential need for extended services (varying service components, service levels, and costs).",0
+" This is especially likely for the archiving, disaster recovery, security, and remote – mobile messaging categories.",0
+ The survey also verified that more than half of agencies polled currently have and use a document collaboration and workflow application.,0
+" However, in keeping within the scope of the statewide “e-mail, messaging, and calendaring” system proposal, it was agreed that collaboration services (such as shared documents and workflows, instant messaging, and discussion forums) should remain out of scope for this project.",0
+" Finally, the technical and financial feasibility of each functional requirement will be further evaluated by the Enterprise E-mail technical and financial workgroups prior to submitting the proposed plan for statewide e-mail by December 31, 2009.",0
