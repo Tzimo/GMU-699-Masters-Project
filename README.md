@@ -1,2 +1,2 @@
 # GMU-699-Masters-Project
-This is the Github repository that we will do all our code development
+You must download GUI.py and all the supporting files in order to run this program
