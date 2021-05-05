@@ -28,76 +28,76 @@ for package in packages:
         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
         globals()[package] = importlib.import_module(package)
 
-# try:
-    # import subprocess
-    # import sys, os, subprocess, csv
-    # from PyQt5.QtWidgets import *
-    # from PyQt5.QtGui import *
-    # import os.path
-    # from os import path
-    # import nltk
-    # import keras
-    # import tensorflow as tf
-    # import tensorflow_hub as hub
-    # import sentencepiece
-    # import docx2pdf
-    # import PyPDF2
-    # import xlsxwriter
+try:
+    import subprocess
+    import sys, os, subprocess, csv
+    from PyQt5.QtWidgets import *
+    from PyQt5.QtGui import *
+    import os.path
+    from os import path
+    import nltk
+    import keras
+    import tensorflow as tf
+    import tensorflow_hub as hub
+    import sentencepiece
+    import docx2pdf
+    import PyPDF2
+    import xlsxwriter
     
-# # Download missing packages
-# except ImportError:
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", 'nltk'])
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", 'keras'])
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", 'tensorflow'])
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", 'tensorflow_hub'])
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", 'sentencepiece'])
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", 'docx2pdf'])
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", 'PyPDF2'])
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", 'python-docx'])
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", 'xlsxwriter'])
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", 'PyQt5'])
+# Download missing packages
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'nltk'])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'keras'])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'tensorflow'])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'tensorflow_hub'])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'sentencepiece'])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'docx2pdf'])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'PyPDF2'])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'python-docx'])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'xlsxwriter'])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'PyQt5'])
 
-# # Import packages
-# finally:
-    # import os
-    # import tokenization
-    # import nltk
-    # import keras
-    # import tensorflow as tf
-    # import tensorflow_hub as hub
-    # import sentencepiece
-    # import docx2pdf
-    # import PyPDF2
-    # from docx2pdf import convert
-    # import json
-    # import datetime
-    # from nltk.stem.lancaster import LancasterStemmer
-    # stemmer = LancasterStemmer()
-    # import csv
-    # import numpy as np
-    # import pandas as pd
-    # import docx
-    # from docx import Document
-    # from nltk.corpus import stopwords
-    # from keras.preprocessing.text import Tokenizer 
-    # from keras.models import Sequential 
-    # from pandas import DataFrame 
-    # from matplotlib import pyplot as plt
-    # from keras import backend as K
-    # import string 
-    # import re 
-    # from os import listdir 
-    # from numpy import array
-    # from keras.preprocessing.sequence import pad_sequences 
-    # from keras.utils.vis_utils import plot_model
-    # from keras.layers import Flatten, Embedding, Dense 
-    # from keras.layers.convolutional import Conv1D, MaxPooling1D 
-    # import logging
-    # from keras.models import load_model
-    # from pickle import load
-    # from keras import *
-    # import ssl
-    # ssl._create_default_https_context = ssl._create_unverified_context
+# Import packages
+finally:
+    import os
+    import tokenization
+    import nltk
+    import keras
+    import tensorflow as tf
+    import tensorflow_hub as hub
+    import sentencepiece
+    import docx2pdf
+    import PyPDF2
+    from docx2pdf import convert
+    import json
+    import datetime
+    from nltk.stem.lancaster import LancasterStemmer
+    stemmer = LancasterStemmer()
+    import csv
+    import numpy as np
+    import pandas as pd
+    import docx
+    from docx import Document
+    from nltk.corpus import stopwords
+    from keras.preprocessing.text import Tokenizer 
+    from keras.models import Sequential 
+    from pandas import DataFrame 
+    from matplotlib import pyplot as plt
+    from keras import backend as K
+    import string 
+    import re 
+    from os import listdir 
+    from numpy import array
+    from keras.preprocessing.sequence import pad_sequences 
+    from keras.utils.vis_utils import plot_model
+    from keras.layers import Flatten, Embedding, Dense 
+    from keras.layers.convolutional import Conv1D, MaxPooling1D 
+    import logging
+    from keras.models import load_model
+    from pickle import load
+    from keras import *
+    import ssl
+    ssl._create_default_https_context = ssl._create_unverified_context
     
 
 import os, csv
